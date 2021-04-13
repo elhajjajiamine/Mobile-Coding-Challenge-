@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100468E5262484F9006DCA1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100468E4262484F9006DCA1D /* CardView.swift */; };
+		10046918262498AE006DCA1D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10046917262498AE006DCA1D /* DetailView.swift */; };
+		1004698026250F73006DCA1D /* CoreDataM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1004697E26250F73006DCA1D /* CoreDataM.xcdatamodeld */; };
+		103DE7A8262517FD000C91A8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DE7A7262517FD000C91A8 /* PersistenceController.swift */; };
+		103DE7AE26251AA1000C91A8 /* JsonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DE7AD26251AA1000C91A8 /* JsonViewModel.swift */; };
+		103DE7B32625200A000C91A8 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DE7B22625200A000C91A8 /* CustomNavigationView.swift */; };
 		104D74942623C51400655C1D /* Load_Data_from_a_JSON_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D74932623C51400655C1D /* Load_Data_from_a_JSON_APIApp.swift */; };
 		104D74962623C51400655C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D74952623C51400655C1D /* ContentView.swift */; };
 		104D74982623C51700655C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104D74972623C51700655C1D /* Assets.xcassets */; };
 		104D749B2623C51700655C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104D749A2623C51700655C1D /* Preview Assets.xcassets */; };
+		104D74A42623C85800655C1D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D74A32623C85800655C1D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		104D74902623C51400655C1D /* Load Data from a JSON API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Load Data from a JSON API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100468E4262484F9006DCA1D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		10046917262498AE006DCA1D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1004697F26250F73006DCA1D /* CoreDataM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataM.xcdatamodel; sourceTree = "<group>"; };
+		103DE7A7262517FD000C91A8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		103DE7AD26251AA1000C91A8 /* JsonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewModel.swift; sourceTree = "<group>"; };
+		103DE7B22625200A000C91A8 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		104D74902623C51400655C1D /* Mobile Coding Challenge .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Coding Challenge .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104D74932623C51400655C1D /* Load_Data_from_a_JSON_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load_Data_from_a_JSON_APIApp.swift; sourceTree = "<group>"; };
 		104D74952623C51400655C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		104D74972623C51700655C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104D749A2623C51700655C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		104D749C2623C51700655C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104D74A32623C85800655C1D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		107F86BB262595B800E5F31F /* Al-Jazeera-Arabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Jazeera-Arabic-Regular.ttf"; path = "../../../../../Downloads/Al-Jazeera-Arabic-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100468EB26248B46006DCA1D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				107F86BB262595B800E5F31F /* Al-Jazeera-Arabic-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		103DE7AA26251A28000C91A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				104D74952623C51400655C1D /* ContentView.swift */,
+				100468E4262484F9006DCA1D /* CardView.swift */,
+				10046917262498AE006DCA1D /* DetailView.swift */,
+				103DE7B22625200A000C91A8 /* CustomNavigationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		103DE7AB26251A2F000C91A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				103DE7AD26251AA1000C91A8 /* JsonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		103DE7AC26251A42000C91A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				104D74A32623C85800655C1D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		103DE7B126251F7C000C91A8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				103DE7A7262517FD000C91A8 /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		104D74872623C51400655C1D = {
 			isa = PBXGroup;
 			children = (
@@ -44,7 +102,7 @@
 		104D74912623C51400655C1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				104D74902623C51400655C1D /* Load Data from a JSON API.app */,
+				104D74902623C51400655C1D /* Mobile Coding Challenge .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +110,16 @@
 		104D74922623C51400655C1D /* Load Data from a JSON API */ = {
 			isa = PBXGroup;
 			children = (
+				103DE7B126251F7C000C91A8 /* CoreData */,
+				100468EB26248B46006DCA1D /* Fonts */,
+				103DE7AC26251A42000C91A8 /* Model */,
+				103DE7AB26251A2F000C91A8 /* ViewModel */,
+				103DE7AA26251A28000C91A8 /* View */,
 				104D74932623C51400655C1D /* Load_Data_from_a_JSON_APIApp.swift */,
-				104D74952623C51400655C1D /* ContentView.swift */,
 				104D74972623C51700655C1D /* Assets.xcassets */,
 				104D749C2623C51700655C1D /* Info.plist */,
 				104D74992623C51700655C1D /* Preview Content */,
+				1004697E26250F73006DCA1D /* CoreDataM.xcdatamodeld */,
 			);
 			path = "Load Data from a JSON API";
 			sourceTree = "<group>";
@@ -72,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		104D748F2623C51400655C1D /* Load Data from a JSON API */ = {
+		104D748F2623C51400655C1D /* Mobile Coding Challenge  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 104D749F2623C51700655C1D /* Build configuration list for PBXNativeTarget "Load Data from a JSON API" */;
+			buildConfigurationList = 104D749F2623C51700655C1D /* Build configuration list for PBXNativeTarget "Mobile Coding Challenge " */;
 			buildPhases = (
 				104D748C2623C51400655C1D /* Sources */,
 				104D748D2623C51400655C1D /* Frameworks */,
@@ -84,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = "Load Data from a JSON API";
+			name = "Mobile Coding Challenge ";
 			productName = "Load Data from a JSON API";
-			productReference = 104D74902623C51400655C1D /* Load Data from a JSON API.app */;
+			productReference = 104D74902623C51400655C1D /* Mobile Coding Challenge .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 104D748B2623C51400655C1D /* Build configuration list for PBXProject "Load Data from a JSON API" */;
+			buildConfigurationList = 104D748B2623C51400655C1D /* Build configuration list for PBXProject "Mobile Coding Challenge " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				104D748F2623C51400655C1D /* Load Data from a JSON API */,
+				104D748F2623C51400655C1D /* Mobile Coding Challenge  */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104D74A42623C85800655C1D /* Model.swift in Sources */,
+				103DE7A8262517FD000C91A8 /* PersistenceController.swift in Sources */,
+				100468E5262484F9006DCA1D /* CardView.swift in Sources */,
+				103DE7B32625200A000C91A8 /* CustomNavigationView.swift in Sources */,
+				1004698026250F73006DCA1D /* CoreDataM.xcdatamodeld in Sources */,
+				103DE7AE26251AA1000C91A8 /* JsonViewModel.swift in Sources */,
 				104D74962623C51400655C1D /* ContentView.swift in Sources */,
+				10046918262498AE006DCA1D /* DetailView.swift in Sources */,
 				104D74942623C51400655C1D /* Load_Data_from_a_JSON_APIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Load Data from a JSON API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 28FY2PHCA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Load Data from a JSON API/Info.plist";
@@ -277,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.Load-Data-from-a-JSON-API";
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.MobileCodingChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Load Data from a JSON API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 28FY2PHCA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Load Data from a JSON API/Info.plist";
@@ -299,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.Load-Data-from-a-JSON-API";
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.MobileCodingChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		104D748B2623C51400655C1D /* Build configuration list for PBXProject "Load Data from a JSON API" */ = {
+		104D748B2623C51400655C1D /* Build configuration list for PBXProject "Mobile Coding Challenge " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				104D749D2623C51700655C1D /* Debug */,
@@ -318,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		104D749F2623C51700655C1D /* Build configuration list for PBXNativeTarget "Load Data from a JSON API" */ = {
+		104D749F2623C51700655C1D /* Build configuration list for PBXNativeTarget "Mobile Coding Challenge " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				104D74A02623C51700655C1D /* Debug */,
@@ -328,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1004697E26250F73006DCA1D /* CoreDataM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1004697F26250F73006DCA1D /* CoreDataM.xcdatamodel */,
+			);
+			currentVersion = 1004697F26250F73006DCA1D /* CoreDataM.xcdatamodel */;
+			path = CoreDataM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 104D74882623C51400655C1D /* Project object */;
 }
